@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/styles/reset.css">
     <link rel="stylesheet" href="/src/styles/vars.css">
     <link rel="stylesheet" href="/src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="/src/styles/main-content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
 
@@ -54,10 +55,10 @@
                     <span class="text subtitle">É fácil, vamos te ajudar</span>
                     <button class="section-playlist__button">
                         <span>Criar playlist</span>
-                    </butotn>
+                        </butotn>
                 </div>
             </section>
-            
+
             <div class="cookies">
                 <a href="">cookies</a>
             </div>
@@ -72,7 +73,7 @@
         </div>
     </div>
     <main>
-        <div class="maincontainer">
+        <div class="main-container">
             <nav class="header__navigation">
                 <div class="navigation">
                     <button class="arrow-left">
@@ -81,12 +82,16 @@
                     <button class="arrow-right">
                         <img src="/src/assets/icons/small-right.png" alt="seta direita">
                     </button>
-
-                    <div class="header__seach">
-                        <img src="/src/assets/icons/search.png" alt="">
-                        <input id="search-input" type="text"/>
-                    </div>
                 </div>
+                <div class="header__search">
+                    <img src="/src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                <div class="header__login">
+                    <button class="subscribe">Inscreve-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+
             </nav>
         </div>
     </main>
