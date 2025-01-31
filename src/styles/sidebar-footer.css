@@ -53,9 +53,8 @@ body {
         background: var(--bg-12);
         display: flex;
         border-radius: 8px;
-
-        /* padding: 16px 0 0 16px; não é mais preciso ele ja fica alinhado com o padding do navigation */
-        img {
+   
+        & img {
             width: 80px;
         }
     }
